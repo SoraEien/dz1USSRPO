@@ -24,6 +24,10 @@ void WinningsReport::calculateWinnings()
 		if (bet->getTeam() != _winner) 
 		{
 			res_amount *= (-1);
+		} 
+		else
+		{
+			res_amount *= (1 - _percentage);
 		}
 		std::cout << "Player: " << bet->getId() << " get " <<
 			res_amount << std::endl;

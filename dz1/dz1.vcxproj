@@ -129,14 +129,17 @@
   <ItemGroup>
     <ClCompile Include="BetCard.cpp" />
     <ClCompile Include="dz1.cpp" />
+    <ClCompile Include="SimpleManagement.cpp" />
     <ClCompile Include="Team.cpp" />
     <ClCompile Include="WinningsReport.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BetCard.h" />
     <ClInclude Include="IBet.h" />
+    <ClInclude Include="IManagement.h" />
     <ClInclude Include="IReport.h" />
     <ClInclude Include="ITeam.h" />
+    <ClInclude Include="SimpleManagement.h" />
     <ClInclude Include="Team.h" />
     <ClInclude Include="WinningsReport.h" />
   </ItemGroup>
